@@ -21,3 +21,5 @@ API Integration: The app may integrate with third-party APIs for additional feat
 Updates and Maintenance: Regular updates and maintenance are essential to keep the app running smoothly, fix bugs, and add new features in response to user feedback and changes in weather data sources or APIs.
 
 By abstracting the weather app into these components, developers can design and build scalable, modular, and maintainable software solutions that meet the needs of users across different platforms and devices.
+![Screenshot 2024-07-28 194151](https://github.com/user-attachments/assets/596114f9-0d9e-4169-a0ba-5a4b6de29f2b)
+
