@@ -1,25 +1,76 @@
-Data Retrieval Module: This module fetches real-time weather data from various sources such as weather APIs, meteorological stations, or satellites. It collects information like temperature, humidity, wind speed, precipitation, and atmospheric pressure.
+# Weather Forecast Application
 
-User Interface (UI): The UI is responsible for presenting weather information to the user in a visually appealing and intuitive manner. It includes elements such as current conditions, forecasts, interactive maps, and navigation menus.
+This is a **5-Day Weather Forecast Application** that provides developers and users with access to real-time and forecasted weather data for various locations worldwide. By leveraging Weather APIs, the application enhances user experience and functionality, allowing seamless integration of weather information into applications, websites, or services.
 
-Location Services: This component determines the user's current location or allows them to input a location manually. It ensures that weather information is relevant and accurate for the user's specific geographical area.
+---
 
-Forecasting Algorithm: The forecasting algorithm analyzes historical weather data and current conditions to generate forecasts for the upcoming hours, days, or weeks. It may use techniques such as statistical modeling, machine learning, or numerical weather prediction.
+## Live Preview
+🔗 **Live Link**: [Weather Forecast Application](https://your-live-link.com)
 
-Alerts and Notifications: This feature notifies users about severe weather events, such as thunderstorms, hurricanes, or snowstorms, to help them stay safe and prepared.
+---
 
-Customization Options: Users can personalize the app by setting preferences for units of measurement (e.g., Celsius or Fahrenheit), language, themes, and favorite locations.
+## About
+Weather APIs provide developers with access to real-time and forecasted weather data for various locations worldwide. These APIs enable developers to integrate weather information into their applications, websites, or services, enhancing user experience and functionality.
 
-Offline Support: The app may include offline functionality, allowing users to access cached weather data and basic features even when they don't have an internet connection.
+---
 
-Accessibility Features: Accessibility features ensure that the app is usable by people with disabilities, including support for screen readers, high contrast modes, and alternative input methods.
+## Features
+- Real-time weather updates for any location worldwide.
+- 5-day weather forecast.
+- Responsive and user-friendly interface.
+- Search functionality for city-specific weather data.
+- Logs user search history in SQL database.
+- Built using robust backend logic powered by JSP and Java Servlets.
 
-Data Storage and Management: This component stores user preferences, saved locations, and other relevant data locally or in the cloud. It also manages data synchronization across multiple devices.
+---
 
-API Integration: The app may integrate with third-party APIs for additional features, such as air quality index (AQI) information, pollen forecasts, or astronomical data (e.g., sunrise and sunset times).
+## Tech Stack
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: JSP, Java Servlets
+- **Database**: SQL
+- **API Integration**: Weather API (e.g., OpenWeatherMap)
 
-Updates and Maintenance: Regular updates and maintenance are essential to keep the app running smoothly, fix bugs, and add new features in response to user feedback and changes in weather data sources or APIs.
+---
 
-By abstracting the weather app into these components, developers can design and build scalable, modular, and maintainable software solutions that meet the needs of users across different platforms and devices.
-![Screenshot 2024-07-28 194151](https://github.com/user-attachments/assets/596114f9-0d9e-4169-a0ba-5a4b6de29f2b)
+## How to Run
 
+### Prerequisites
+1. **Java-capable server**: Install Apache Tomcat or any equivalent server.
+2. **SQL Database**: Install MySQL or any SQL database system.
+3. **API Key**: Obtain a weather service API key (e.g., OpenWeatherMap).
+
+### Steps to Run
+```bash
+# Clone the Repository
+git clone https://github.com/your-repo-name/weather-forecast-app.git
+
+# Import the Project
+# Open the project in your preferred IDE (e.g., Eclipse, IntelliJ IDEA).
+
+# Set Up SQL Database
+# 1. Create a database in your SQL system.
+# 2. Use the provided `database.sql` script to set up the necessary tables.
+
+# Configure Database Details
+# Update database connection details in the backend files (e.g., `dbconfig.jsp`):
+# Example:
+# String dbUrl = "jdbc:mysql://localhost:3306/weatherDB";
+# String dbUser = "your_username";
+# String dbPassword = "your_password";
+
+# Update API Key
+# Replace `YOUR_API_KEY` in the backend Java file (e.g., `WeatherServlet.java`) and frontend JavaScript file (`script.js`):
+# Example:
+# String apiKey = "YOUR_API_KEY";
+# const apiKey = "YOUR_API_KEY";
+
+# Deploy on Server
+# Deploy the application on a Java-capable server like Apache Tomcat.
+
+# Run the Application
+# Access the application via a web browser at:
+http://localhost:8080/weather-forecast-app
+
+# Test the Application
+# 1. Enter city names in the search bar to retrieve their respective 5-day weather forecasts.
+# 2. Check the SQL database for logged search history.
