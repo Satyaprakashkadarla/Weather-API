@@ -5,7 +5,7 @@ This is a **5-Day Weather Forecast Application** that provides developers and us
 ---
 
 ## Live Preview
-🔗 **Live Link**: [Weather Forecast Application](https://your-live-link.com)
+🔗 **Live Link**: [Weather Forecast Application](weatherforecasting-api.netlify.app/)
 
 ---
 
